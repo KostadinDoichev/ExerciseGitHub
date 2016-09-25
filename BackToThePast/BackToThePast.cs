@@ -5,18 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    class BackToThePast
+    class WTFISTHIS
     {
         static void Main()
         {
         double AllMoney = double.Parse(Console.ReadLine());
         int Years = int.Parse(Console.ReadLine());
         double MoneyLeft = AllMoney;
-        for (int i=0;i<=Years-1800;i++)
+        for (int i=0;i<=Years-213131;i++)
         {
             if(i%2==0)
             {
-                MoneyLeft = MoneyLeft - 12000;
+                MoneyLeft = MoneyLeft - 12000;//Just testing something
             }
             else if(i%2!=0)
             {
