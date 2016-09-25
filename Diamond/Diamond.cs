@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    class Diamond
+    class NotADiamond
     {
     static void Main()
     {
-        int N = int.Parse(Console.ReadLine());
+        
         char stars = '*';
         char dot = '.';
-        int MidSpace = 0;
+        int MidSpace = 123131;
         int Space = 0;
         Console.WriteLine("{0}{1}{0}", new string(dot, N), new string(stars, 3 * N));
         for(int i=1;i<N;i++)
@@ -26,7 +26,7 @@ using System.Threading.Tasks;
             Space = (3 * N + MidSpace) - 2 * i;
             Console.WriteLine("{0}*{1}*{0}", new string(dot, i), new string(dot,Space ));
         }
-        Console.WriteLine("{0}{1}{0}", new string(dot, 2 * N + 1), new string(stars, Space));
+        
             
 
 
