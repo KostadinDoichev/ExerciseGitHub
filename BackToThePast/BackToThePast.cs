@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    class BackToThePast
+    class OMGWTF
     {
         static void Main()
         {
@@ -16,7 +16,7 @@ using System.Threading.Tasks;
         {
             if(i%2==0)
             {
-                MoneyLeft = MoneyLeft - 12000;
+        
             }
             else if(i%2!=0)
             {
